@@ -4,6 +4,7 @@
 #' @returns Natural logarithm of the sum of exponentiated values of vector
 #' @examples
 #' log_summed_exps(c(1, 2, 3))
+#' @import ggplot2, dplyr, magrittr, pacman
 #' @export
 
 log_summed_exps <- function(to_sum) {
